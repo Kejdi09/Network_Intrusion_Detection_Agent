@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pkl
+
+# Data
+data/
+*.csv
+
+# Models
+models/
+
+# Streamlit
+.streamlit/
+
+# OS
+Thumbs.db
+.DS_Store
