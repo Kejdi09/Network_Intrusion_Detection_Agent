@@ -16,3 +16,6 @@ models/
 # OS
 Thumbs.db
 .DS_Store
+
+*.pdf
+*docs/

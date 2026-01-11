@@ -190,8 +190,16 @@ def generate_benign_packet():
 # Function to generate MALICIOUS packet (actual examples from trained dataset)
 @st.cache_resource
 def load_malicious_examples():
-    """Load pre-saved strictly malicious examples (100% confidence)"""
-    df = pd.read_csv('data/strictly_malicious_packets.csv')
+    """Load pre-saved sample generator examples for sample generation"""
+    try:
+        df = pd.read_csv('data/sample_generator_data.csv')
+    except FileNotFoundError:
+        # Fallback: create synthetic packet if data file not available
+        df = pd.DataFrame({'L4_SRC_PORT': [443], 'L4_DST_PORT': [12345], 'PROTOCOL': [6], 
+                          'L7_PROTO': [91], 'TCP_FLAGS': [2], 'IN_BYTES': [5000000], 
+                          'IN_PKTS': [100000], 'OUT_BYTES': [100], 'OUT_PKTS': [2], 
+                          'DURATION_IN': [60], 'DURATION_OUT': [60], 'MIN_TTL': [64], 
+                          'MAX_TTL': [64]})
     return [row for _, row in df.iterrows()]
 
 def generate_malicious_packet():
