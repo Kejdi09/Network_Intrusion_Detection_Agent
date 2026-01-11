@@ -326,27 +326,24 @@ For detailed documentation, see:
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute:
+This is an **educational school project** and is **not open for external contributions** at this time. 
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Commit (`git commit -m 'Add amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
+If you have suggestions or feedback, feel free to open an issue, but please note that we may not be able to accept pull requests.
 
 ---
 
-## 📝 License
+## 📝 License & Usage
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+**Educational Use Only** - This project is developed for academic purposes as a school project. 
+
+For any usage, modification, or distribution inquiries, please contact the authors.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Kejdi09**  
-Network Intrusion Detection AI Agent
+- **Kejdi09** - Lead Developer
+- **Markl1T** - Co-Developer
 
 ---
 
