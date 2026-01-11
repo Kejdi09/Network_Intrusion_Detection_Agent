@@ -1,6 +1,6 @@
-# 🛡️ Network Intrusion Detection AI Agent
+# Network Intrusion Detection AI Agent
 
-**Production-ready Intelligent Network Intrusion Detection System** combining advanced machine learning with explainable AI decision-making.
+Production-ready Intelligent Network Intrusion Detection System combining advanced machine learning with explainable AI decision-making.
 
 This is a complete solution for detecting malicious network traffic with automated response planning and continuous learning capabilities.
 
@@ -332,18 +332,9 @@ If you have suggestions or feedback, feel free to open an issue, but please note
 
 ---
 
-## 📝 License & Usage
+## �‍💻 Authors
 
-**Educational Use Only** - This project is developed for academic purposes as a school project. 
-
-For any usage, modification, or distribution inquiries, please contact the authors.
-
----
-
-## 👨‍💻 Authors
-
-- **Kejdi09** - Lead Developer
-- **Markl1T** - Co-Developer
+**Kejdi09** & **Markl1T** - School Project Collaborators
 
 ---
 
