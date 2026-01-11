@@ -685,37 +685,7 @@ if submit:
             with st.expander(f"Phase {phase}: {action}"):
                 st.write(reasoning)
     
-    # ============================================
-    # ADAPTIVE LEARNING FEEDBACK
-    # ============================================
-    st.divider()
-    st.subheader("🧠 Adaptive Learning System")
-    
-    col_feedback1, col_feedback2 = st.columns(2)
-    
-    with col_feedback1:
-        st.write("**Was this prediction correct?**")
-        feedback_correct = st.radio(
-            "Select prediction accuracy:",
-            ["Correct", "Incorrect"],
-            key=f"feedback_{random.random()}"
-        )
-    
-    with col_feedback2:
-        st.write("**Confidence Assessment:**")
-        agent_decision_str = "Malicious" if stage1_pred == 1 else "Benign"
-        feedback_note = st.text_input(
-            "Add notes (optional):",
-            key=f"feedback_note_{random.random()}"
-        )
-    
-    if st.button("📊 Submit Feedback", key=f"submit_feedback_{random.random()}"):
-        learning_system.record_feedback(
-            prediction=agent_decision_str,
-            actual="Malicious" if feedback_correct == "Correct" and stage1_pred == 1 else "Benign",
-            confidence=max(malicious_prob, benign_prob)
-        )
-        st.success("✓ Feedback recorded for model improvement!")
+   
     
     # Display learning metrics
     st.write("**Learning System Performance:**")
