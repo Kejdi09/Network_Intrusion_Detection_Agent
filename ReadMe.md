@@ -316,11 +316,7 @@ All features are normalized using Min-Max scaling and missing/infinite values ar
 
 ## 📚 Documentation
 
-For detailed documentation, see:
-- **Quick Start Guide:** `docs/archive/QUICK_START_GUIDE.md`
-- **Architecture Deep Dive:** `docs/archive/ARCHITECTURE_GUIDE.md`
-- **Agent System Explanation:** `docs/archive/INTELLIGENT_AGENT_DOCS.md`
-- **Test Report:** `docs/archive/TEST_VERIFICATION_REPORT.md`
+Comprehensive documentation and guides are included in the repository. For detailed information, refer to the source code and comments.
 
 ---
 
@@ -334,9 +330,7 @@ If you have suggestions or feedback, feel free to open an issue, but please note
 
 ## �‍💻 Authors
 
-**Kejdi09** & **Markl1T** - School Project Collaborators
-
----
+Kejdi09, Markl1T
 
 ## 🙏 Acknowledgments
 
@@ -349,12 +343,9 @@ If you have suggestions or feedback, feel free to open an issue, but please note
 
 ## 📞 Support
 
-For issues, questions, or suggestions:
-- Open an issue on GitHub
-- Check the documentation in `docs/archive/`
-- Review the test report for expected behavior
+For issues or questions, open an issue on GitHub.
 
 ---
 
 **Last Updated:** January 11, 2026  
-**Status:** ✅ Production Ready
+**Status:** Production Ready
